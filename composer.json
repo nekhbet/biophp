@@ -1,0 +1,29 @@
+{
+  "name": "nekhbet/biophp",
+  "description": "A BioInformatics library.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sorin Trimbitas",
+      "email": "trimbitassorin@hotmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/nekhbet/biophp/issues"
+  },
+  "homepage": "https://github.com/nekhbet/biophp",
+  "keywords": [
+    "biophp",
+    "bioinformatics"
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Nekhbet\\BioPHP\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
